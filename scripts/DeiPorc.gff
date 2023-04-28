@@ -1,0 +1,119 @@
+##gff-version 3
+# This output was generated with AUGUSTUS (version 3.4.0).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /fslhome/ny226/anaconda3/envs/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like ../genes/DeiPorc_gene.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8809, name = DeiPorc_heavy_chain_fibroin) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene DeiPorc_heavy_chain_fibroin.g1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	gene	1063	7812	0.67	+	.	ID=DeiPorc_heavy_chain_fibroin.g1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	transcript	1063	7812	0.67	+	.	ID=DeiPorc_heavy_chain_fibroin.g1.t1;Parent=DeiPorc_heavy_chain_fibroin.g1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	start_codon	1063	1065	.	+	0	Parent=DeiPorc_heavy_chain_fibroin.g1.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	1063	7812	0.67	+	0	ID=DeiPorc_heavy_chain_fibroin.g1.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g1.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	stop_codon	7810	7812	.	+	0	Parent=DeiPorc_heavy_chain_fibroin.g1.t1
+# protein sequence = [MNELESQYTETGIEKSDEYDVENGTLFEKSKVTKRFEREGHKPNIAAGEKVVRTFTIETYGDGHESILEEDVVFKKVH
+# ERETSPSSSAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPGLYVHGSKDSGAAAAAAAASSSASSPEVIVIKEGSSSA
+# AASSAASAAGDSRHRGFGSVEDYTYVSDLNLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPG
+# SYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAA
+# ASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPGSYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYT
+# YVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPGSYVHGSKDSGAAAAAAAASSSASS
+# PEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVY
+# EGDNYYDDVYGPGLYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAA
+# AAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPGLYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGD
+# SRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPGLYVHGSKDSGA
+# AAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDHTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASSGAAASSGA
+# RRLGRYGPYGPVYDGDNYYDDVYGPGSYVHGSKDSGAAAAAAAASSSASSPEVIVIKEGSSSAAASSAASAAGDSRHRGFGSVEDYTYVSDLDLVSGD
+# GYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGYNYYDDVYGPGLYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESS
+# SAAAASAASAAGDSRHRGFGSVEDHTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYG
+# PGSYVHGSKDSGAAAAAAAASSSASSPEVIVIKEGSSSAAASSAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRG
+# AAASAGAAASSGARRLGRYGPYGPVYEVDNYYDDVYGPGSYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVED
+# YTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDYYYDDVYGPGLYVHGSKDSGAAAAAAAASSSA
+# SSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGP
+# VYDGDNYYDDVYGPGSYVHGSKDSGAAAAAAAASSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSA
+# AAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYDGDNYYDDVYGPGSYVQGSKDSGAAAAAAAASSSASSPEVIVIKEGSSSAAASSAASAA
+# GDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASSGARRLGRYGPYGPVYEGDNYYDDVYGPGSYVHGSKDS
+# GAAAAAAAAGSSASSPEVIVIQGESSSAAAASAASAAGDSRHRGFGSVEDYTYVSDLDLVSGDGYYGPGKGSSAAAAAGAAAGSGRGAAASAGAAASS
+# GARRLGRYGPYGPVYDGDYDYDDVYGPGSYVHGSKGSSAAASASASSSNDSGSHLEERPAIVIIEENSGSSEASSSSASASGPGARRARGPRICRITR
+# RQLVVKLRELPCASC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene DeiPorc_heavy_chain_fibroin.g1
+###
+# start gene DeiPorc_heavy_chain_fibroin.g2
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	gene	4302	4633	.	-	.	ID=DeiPorc_heavy_chain_fibroin.g2
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	transcript	4302	4633	0.32	-	.	ID=DeiPorc_heavy_chain_fibroin.g2.t1;Parent=DeiPorc_heavy_chain_fibroin.g2
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	stop_codon	4302	4304	.	-	0	Parent=DeiPorc_heavy_chain_fibroin.g2.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	intron	4451	4500	0.37	-	.	Parent=DeiPorc_heavy_chain_fibroin.g2.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	4302	4450	0.39	-	2	ID=DeiPorc_heavy_chain_fibroin.g2.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g2.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	4501	4633	0.47	-	0	ID=DeiPorc_heavy_chain_fibroin.g2.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g2.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	start_codon	4631	4633	.	-	0	Parent=DeiPorc_heavy_chain_fibroin.g2.t1
+# protein sequence = [MMQRLLRTLPHRGLIQLPHQLRLQRLILCLDRNIHRQTLDRDQRPADAADEAAADELPSLMTMTSGLDADELAAAAAA
+# AAPESFDPCTYEPGP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene DeiPorc_heavy_chain_fibroin.g2
+###
+# start gene DeiPorc_heavy_chain_fibroin.g3
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	gene	5112	5443	.	-	.	ID=DeiPorc_heavy_chain_fibroin.g3
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	transcript	5112	5443	0.41	-	.	ID=DeiPorc_heavy_chain_fibroin.g3.t1;Parent=DeiPorc_heavy_chain_fibroin.g3
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	stop_codon	5112	5114	.	-	0	Parent=DeiPorc_heavy_chain_fibroin.g3.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	intron	5261	5310	0.44	-	.	Parent=DeiPorc_heavy_chain_fibroin.g3.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	5112	5260	0.47	-	2	ID=DeiPorc_heavy_chain_fibroin.g3.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g3.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	5311	5443	0.53	-	0	ID=DeiPorc_heavy_chain_fibroin.g3.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g3.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	start_codon	5441	5443	.	-	0	Parent=DeiPorc_heavy_chain_fibroin.g3.t1
+# protein sequence = [MMQRLLRTLPHRGLIQLPHQLRLQRLILCLDRNIHRQTLDRDQRPADAADEAAADELPSLMTMTSGLDADELAAAAAA
+# AAPESFDPCTYEPGP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene DeiPorc_heavy_chain_fibroin.g3
+###
+# start gene DeiPorc_heavy_chain_fibroin.g4
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	gene	6732	7063	.	-	.	ID=DeiPorc_heavy_chain_fibroin.g4
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	transcript	6732	7063	0.58	-	.	ID=DeiPorc_heavy_chain_fibroin.g4.t1;Parent=DeiPorc_heavy_chain_fibroin.g4
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	stop_codon	6732	6734	.	-	0	Parent=DeiPorc_heavy_chain_fibroin.g4.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	intron	6881	6930	0.66	-	.	Parent=DeiPorc_heavy_chain_fibroin.g4.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	6732	6880	0.68	-	2	ID=DeiPorc_heavy_chain_fibroin.g4.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g4.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	CDS	6931	7063	0.68	-	0	ID=DeiPorc_heavy_chain_fibroin.g4.t1.cds;Parent=DeiPorc_heavy_chain_fibroin.g4.t1
+DeiPorc_heavy_chain_fibroin	AUGUSTUS	start_codon	7061	7063	.	-	0	Parent=DeiPorc_heavy_chain_fibroin.g4.t1
+# protein sequence = [MMQRLLRTLPHRGLIQLPHQLRLQRLILCLDRNIHRQTLDRDQRPADAADEAAADELPSLMTMTSGLDADELAAAAAA
+# AAPESFDPCTYEPGP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene DeiPorc_heavy_chain_fibroin.g4
+###
+# command line:
+# augustus --strand=both --singlestrand=true --extrinsicCfgFile=./extrinsic.cfg --alternatives-from-evidence=true --gff3=on --uniqueGeneId=true --UTR=off --species=fly ../genes/DeiPorc_gene.fa
