@@ -4,7 +4,7 @@ This project identifies the heavy chain fibroin gene in newly sequenced Lepidopt
 
 The code found in this repo requires a Conda environment wherein Blast, Pyfaidx, and Pandas are available.
 
-# Pipeline:
+## Pipeline:
 1. Select the gene of interest and extract the termini regions from a gene already annotated. Put this file in the termini directory following the format and naming system within that directory.
 
 2. Generate a code for the selected species. For example, the species Acentria ephemerella would generate the code of AceEphe
