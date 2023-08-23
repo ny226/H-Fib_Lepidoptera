@@ -15,6 +15,6 @@ The code found in this repo requires a Conda environment wherein Blast, Pyfaidx,
 
 5.  Run 'sh blash.sh AceEphe AntCard' which will generate the database and blast the termini against the genome. These files will be stored in the directory b_results.
 
-7. Run 'python3 gene_ext.py' to check the blast file and see if there are any viable gene candidates. If there are, the file will be saved as AceEphe.fa in the genes directory. The flanks of the extracted regions can be adjusted within [gene_ext.py]
+7. Run 'python3 gene_ext.py AceEphe AntCard' to check the blast file and see if there are any viable gene candidates. If there are, the file will be saved as AceEphe.fa in the genes directory. The flanks of the extracted regions can be adjusted within [gene_ext.py]
 
 8. Run 'sh annotation AceEphe' for a preliminary annotation. The gff file will be saved in the annotation directory. It is best to check these annotations manually as heavy chain fibroin has proven difficult for many annotation softwares.
